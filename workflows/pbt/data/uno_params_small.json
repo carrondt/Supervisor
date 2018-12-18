@@ -1,0 +1,50 @@
+[
+
+  {
+    "name": "feature_subsample",
+    "type": "constant",
+    "value": 500,
+    "comment": "debug: 1000 or 500, default: remove this entry"
+  },
+
+  {
+    "name": "dense",
+    "type": "constant",
+    "value": "1000 1000 1000"
+  },
+
+  {
+    "name": "activation",
+    "type": "categorical",
+    "element_type": "string",
+    "values": ["softmax", "elu", "softplus", "softsign", "relu", "tanh", "sigmoid", "hard_sigmoid", "linear"]
+  },
+
+  {
+    "name": "optimizer",
+    "type": "categorical",
+    "element_type": "string",
+    "values": ["adam", "rmsprop"]
+  },
+
+  {
+    "name": "drop",
+    "type": "float",
+    "lower": 0.0,
+    "upper": 0.9
+  },
+
+  {
+    "name": "batch_size",
+    "type": "categorical",
+    "element_type": "int",
+    "values": [8000, 12000, 16000]
+  },
+
+  {
+    "name": "epochs",
+    "type": "constant",
+    "value": 1
+  }
+
+]
