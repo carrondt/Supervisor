@@ -28,6 +28,7 @@ PP="$BENCHMARKS/Pilot1/common"
 PP+=":$BENCHMARKS/common"
 PP+=":$SUPERVISOR/workflows/common/python"
 PP+=":$ROOT/models/tc1"
+PP+=":$ROOT/models/uno"
 export PP=$PP
 
 mkdir -p "$EXP_DIR/weights"
