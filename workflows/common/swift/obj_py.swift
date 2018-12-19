@@ -22,7 +22,7 @@ hyper_parameter_map['experiment_id'] = '%s'
 hyper_parameter_map['run_id'] = '%s'
 hyper_parameter_map['timeout'] = %d
 
-validation_loss = nt3_tc1_runner.run(hyper_parameter_map)
+validation_loss = nt3_uno_runner.run(hyper_parameter_map)
 """;
 
 (string obj_result) obj(string params, string iter_indiv_id) {
