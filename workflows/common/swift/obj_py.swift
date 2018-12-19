@@ -5,7 +5,7 @@
 
 string code_template =
 """
-import nt3_tc1_runner
+import nt3_uno_runner
 import json, os
 
 outdir = '%s'
