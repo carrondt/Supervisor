@@ -18,7 +18,7 @@ export ROOT="$THIS/.."
 source $SITE.cfg
 
 export EXP_DIR=${EXP_DIR:-$ROOT/experiments/$EXP_ID}
-export PBT_PY="$ROOT/python/tc1_pbt.py"
+export PBT_PY="$ROOT/python/uno_pbt.py"
 
 export SUPERVISOR=$( cd "$PWD/../../.."  ; /bin/pwd )
 export BENCHMARKS="$SUPERVISOR/../Benchmarks"
